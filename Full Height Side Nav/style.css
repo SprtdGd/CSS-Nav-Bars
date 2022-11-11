@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+
+}
+
+
+/* Navigation Bar */
+
+.side-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: sans-serif;
+    position: fixed;
+    overflow: auto;
+    width: 25%;
+    height: 100%;
+    background-color: #002B5B;
+    
+}
+
+.side-nav li {
+
+}
+
+.side-nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px 0px 15px 20px;
+    color: #8FE3CF;
+}
+
+.side-nav li:hover {
+    background-color: #2B4865;
+
+}
+
+
+
+/*  Side Content */
+
+.side-content {
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.25;
+    margin-left: 25%;
+    padding: 1px 50px;
+    min-height: 1000px;
+    background-color: #8FE3CF;
+    color:#2B4865;
+    overflow: hidden;
+    
+}
+
+
+    

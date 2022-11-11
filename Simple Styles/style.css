@@ -1,0 +1,234 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+hr {
+    border-style: dotted;
+    border-width: 5px 0 0 0;
+    max-width: 5%;
+    margin: 40px auto;
+    border-color: #e3e3e3;
+}
+
+
+/*
+*****************************
+* =Navigation 1 Horizontal 
+*****************************
+*/
+
+.nav-one {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: lightcoral;
+    
+}
+
+
+
+.nav-one li {
+    display: inline-block;
+    font-family: sans-serif;
+    
+
+    
+    
+    
+}
+
+.nav-one li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    width: 75px;
+    height: 75px;
+    display: block;
+    line-height: 75px;
+
+   
+    
+}
+
+.nav-one li a:hover {
+    color: black;
+
+}
+.nav-one li:hover {
+    background-color: blanchedalmond;
+    
+}
+
+
+
+
+
+/*
+*****************************
+* =Navigation 2 Horizantal
+*****************************
+*/
+
+.nav-two {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    margin: 50px 0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+
+
+.nav-two li {
+    background-color: #31087B;
+    margin: 0px 15px;
+    padding: 7px 25px;
+    display: inline-block;
+    border-radius: 8%;
+
+
+    
+  
+
+}
+
+.nav-two li a {
+    text-decoration: none;
+    color:#FFC23C;
+      
+}
+
+
+.nav-two li:hover {
+    background-color: #FA2FB5;
+}
+.nav-two li a:hover {
+   
+    color:#31087B;
+      
+
+
+}
+
+/*
+*****************************
+* =Navigation 3 Horizontal Float
+*****************************
+*/
+
+.nav-three {
+    list-style-type: none;
+    overflow: hidden;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+.nav-three li {
+    float:left;
+    background-color: #4C3A51;
+    margin-right: 1%;
+}
+
+.nav-three li a {
+    text-decoration: none;
+    color: #E7AB79;
+    padding: 10px;
+    display: block;
+}
+
+.nav-three li:hover {
+    background-color: #774360;
+}
+
+
+
+
+
+
+
+/*
+*****************************
+* =Navigation 4 Horizontal Float
+*****************************
+*/
+
+.nav-four {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #100F0F;
+    font-family: sans-serif;
+}
+
+.nav-four li {
+    float: left;
+    border-right: 1px solid #E2DCC8;
+
+}
+
+
+
+.nav-four a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: #E2DCC8;
+    text-align: center;
+
+}
+
+.nav-four li:hover {
+    background-color: #0F3D3E;
+
+}
+
+.active {
+    background-color: #0F3D3E;
+    
+}
+
+
+
+
+
+/*
+*****************************
+* =Navigation 5 Vertical
+*****************************
+*/
+
+.nav-five {
+    list-style-type: none;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+}
+
+
+
+.nav-five li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+.nav-five li:hover {
+    background-color: gray;
+}
+
+.nav-five li a:hover {
+    color: #f1f1f1;
+}
